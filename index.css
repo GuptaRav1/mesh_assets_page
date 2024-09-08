@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-primary: hsl(305, 50%, 90%);
+  --color-secondary: hsl(305, 50%, 10%);
+  --color-tertiary: hsl(5, 80%, 20%);
+  --color-accent: hsl(245, 80%, 20%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
